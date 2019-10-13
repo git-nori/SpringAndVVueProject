@@ -3,6 +3,9 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// @SpringBootApplicationは下記の2つを自動追加する
+// @EnableAutoConfiguration => クラスパス設定、他のBean、およびさまざまなプロパティ設定に基づいてBeanの追加を開始するようにSpring Bootに指示する
+// @Configuration => アプリケーションコンテキストのBean定義のソースとしてクラスにタグを付ける
 @SpringBootApplication
 public class BackApplication {
 
